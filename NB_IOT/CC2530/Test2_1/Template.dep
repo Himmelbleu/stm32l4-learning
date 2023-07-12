@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2619149933</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\test.c</file>
+      <file>$PROJ_DIR$\hal_uart.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$TOOLKIT_DIR$\config\lnk51ew_cc2530.xcl</file>
+      <file>$PROJ_DIR$\..\..\..\..\Documents\&#x8BFe;&#x7A0B;&#x8D44;&#x6599;\&#x667A;&#x80FD;&#x7269;&#x8054;&#x7F51;&#x5F00;&#x53D1;&#x4e0e;&#x5B9e;&#x8DF5;\&#x7B2C;&#x4e09;&#x5468;\uart\hal_uart.c</file>
+      <file>$PROJ_DIR$\hal_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Documents\&#x8BFe;&#x7A0B;&#x8D44;&#x6599;\&#x667A;&#x80FD;&#x7269;&#x8054;&#x7F51;&#x5F00;&#x53D1;&#x4e0e;&#x5B9e;&#x8DF5;\&#x7B2C;&#x4e09;&#x5468;\uart\hal_types.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\Template.hex</file>
+      <file>$PROJ_DIR$\..\..\..\..\Documents\&#x8BFe;&#x7A0B;&#x8D44;&#x6599;\&#x667A;&#x80FD;&#x7269;&#x8054;&#x7F51;&#x5F00;&#x53D1;&#x4e0e;&#x5B9e;&#x8DF5;\&#x7B2C;&#x4e09;&#x5468;\uart\hal_uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Documents\&#x8BFe;&#x7A0B;&#x8D44;&#x6599;\&#x667A;&#x80FD;&#x7269;&#x8054;&#x7F51;&#x5F00;&#x53D1;&#x4e0e;&#x5B9e;&#x8DF5;\&#x7B2C;&#x4e09;&#x5468;\uart\hal_defs.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_uart.r51</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nsid-1e16x01.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\test.r51</file>
+      <file>$PROJ_DIR$\..\..\..\..\Documents\&#x8BFe;&#x7A0B;&#x8D44;&#x6599;\&#x667A;&#x80FD;&#x7269;&#x8054;&#x7F51;&#x5F00;&#x53D1;&#x4e0e;&#x5B9e;&#x8DF5;\&#x7B2C;&#x4e09;&#x5468;\uart\hal_mcu.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\test.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Documents\&#x8BFe;&#x7A0B;&#x8D44;&#x6599;\&#x667A;&#x80FD;&#x7269;&#x8054;&#x7F51;&#x5F00;&#x53D1;&#x4e0e;&#x5B9e;&#x8DF5;\&#x7B2C;&#x4e09;&#x5468;\uart\hal_board_cfg.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_uart.pbi</file>
+      <file>$TOOLKIT_DIR$\config\lnk_base.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Template.pbd</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\test.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 1</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 3 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Documents\&#x8BFe;&#x7A0B;&#x8D44;&#x6599;\&#x667A;&#x80FD;&#x7269;&#x8054;&#x7F51;&#x5F00;&#x53D1;&#x4e0e;&#x5B9e;&#x8DF5;\&#x7B2C;&#x4e09;&#x5468;\uart\hal_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 15 10 7 3 17 21 11 2 9</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 18 15 10 7 3 17 21 11 2 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\hal_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17 21 11 2 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\Template.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 4 20 12 14 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\Template.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 19 16</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
